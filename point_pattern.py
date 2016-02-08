@@ -27,7 +27,7 @@ def manhattan_distance(a, b):
     distance : float
                The Manhattan distance between the two points
     """
-    distance =  (abs(a[0]-b[0]) + abs(a[1]-b[1]))
+    distance =  (abs(b[0]-a[0]) + abs(b[1]-a[1]))
     return distance
 
 
