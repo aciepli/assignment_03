@@ -49,7 +49,7 @@ def euclidean_distance(a, b):
     distance : float
                The Euclidean distance between the two points
     """
-    distance = math.sqrt(((a[0] - b[0])**2) + ((a[1] - b[1])**2)))  # Add the euclidean distance algorithm here
+    distance = math.sqrt((a[0] - b[0])**2) + ((a[1] - b[1])**2))  # Add the euclidean distance algorithm here
     return distance
 
 
@@ -111,9 +111,7 @@ def check_coincident(a, b):
     """
     if a == b:
 		coincident_parameters =  True
-	else:
-		coincident_parameters =  False
-
+	
     return coincident_parameters
     
 
